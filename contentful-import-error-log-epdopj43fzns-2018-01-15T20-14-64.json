@@ -1,0 +1,253 @@
+[
+  {
+    "ts": "2018-01-15T19:14:42.975Z",
+    "level": "warning",
+    "warning": "Rate limit error occurred. Waiting for 1517 ms before retrying..."
+  },
+  {
+    "ts": "2018-01-15T19:14:43.050Z",
+    "level": "warning",
+    "warning": "Rate limit error occurred. Waiting for 1525 ms before retrying..."
+  },
+  {
+    "ts": "2018-01-15T19:15:04.768Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "epdopj43fzns"
+            }
+          },
+          "id": "4shwYI3POEGkw0Eg6kcyaQ",
+          "type": "Asset",
+          "createdAt": "2018-01-15T19:14:42.199Z",
+          "updatedAt": "2018-01-15T19:14:42.199Z",
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4PTKTthY9mNVouzVuAmb3W"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4PTKTthY9mNVouzVuAmb3W"
+            }
+          },
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "Man in the fields"
+          },
+          "description": {
+            "en-US": "Tattooed man walking in a field"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.contentful.com/28p9vvm1oxuw/4shwYI3POEGkw0Eg6kcyaQ/eeaa6df85fb4452ea69ad18c98ffc015/felix-russell-saw-112140.jpg",
+              "fileName": "felix-russell-saw-112140.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "C:\\Users\\Justi\\AppData\\Roaming\\npm\\node_modules\\contentful-cli\\node_modules\\contentful-batch-libs\\node_modules\\contentful-management\\dist\\contentful-management.node.js:8863:21",
+        "<anonymous>",
+        "process._tickCallback (internal/process/next_tick.js:188:7)"
+      ]
+    }
+  },
+  {
+    "ts": "2018-01-15T19:15:05.055Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "epdopj43fzns"
+            }
+          },
+          "id": "4NzwDSDlGECGIiokKomsyI",
+          "type": "Asset",
+          "createdAt": "2018-01-15T19:14:42.201Z",
+          "updatedAt": "2018-01-15T19:14:42.201Z",
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4PTKTthY9mNVouzVuAmb3W"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4PTKTthY9mNVouzVuAmb3W"
+            }
+          },
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "City"
+          },
+          "description": {
+            "en-US": "City pictured from the sky"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.contentful.com/28p9vvm1oxuw/4NzwDSDlGECGIiokKomsyI/d04a5154fa2e2ab02857950639325684/denys-nevozhai-100695.jpg",
+              "fileName": "denys-nevozhai-100695.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "C:\\Users\\Justi\\AppData\\Roaming\\npm\\node_modules\\contentful-cli\\node_modules\\contentful-batch-libs\\node_modules\\contentful-management\\dist\\contentful-management.node.js:8863:21",
+        "<anonymous>",
+        "process._tickCallback (internal/process/next_tick.js:188:7)"
+      ]
+    }
+  },
+  {
+    "ts": "2018-01-15T19:15:06.567Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "epdopj43fzns"
+            }
+          },
+          "id": "7orLdboQQowIUs22KAW4U",
+          "type": "Asset",
+          "createdAt": "2018-01-15T19:14:42.194Z",
+          "updatedAt": "2018-01-15T19:14:42.194Z",
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4PTKTthY9mNVouzVuAmb3W"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4PTKTthY9mNVouzVuAmb3W"
+            }
+          },
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "Sparkler"
+          },
+          "description": {
+            "en-US": "John with Sparkler"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.contentful.com/28p9vvm1oxuw/7orLdboQQowIUs22KAW4U/a97cd3b3415b51c5facfa6f4d184b650/matt-palmer-254999.jpg",
+              "fileName": "matt-palmer-254999.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "C:\\Users\\Justi\\AppData\\Roaming\\npm\\node_modules\\contentful-cli\\node_modules\\contentful-batch-libs\\node_modules\\contentful-management\\dist\\contentful-management.node.js:8863:21",
+        "<anonymous>",
+        "process._tickCallback (internal/process/next_tick.js:188:7)"
+      ]
+    }
+  },
+  {
+    "ts": "2018-01-15T19:15:06.860Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "epdopj43fzns"
+            }
+          },
+          "id": "6Od9v3wzLOysiMum0Wkmme",
+          "type": "Asset",
+          "createdAt": "2018-01-15T19:14:42.196Z",
+          "updatedAt": "2018-01-15T19:14:42.196Z",
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4PTKTthY9mNVouzVuAmb3W"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4PTKTthY9mNVouzVuAmb3W"
+            }
+          },
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "Woman with black hat"
+          },
+          "description": {
+            "en-US": "Woman wearing a black hat"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.contentful.com/28p9vvm1oxuw/6Od9v3wzLOysiMum0Wkmme/95675d379a1284015a8210ca66cc53a5/cameron-kirby-88711.jpg",
+              "fileName": "cameron-kirby-88711.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "C:\\Users\\Justi\\AppData\\Roaming\\npm\\node_modules\\contentful-cli\\node_modules\\contentful-batch-libs\\node_modules\\contentful-management\\dist\\contentful-management.node.js:8863:21",
+        "<anonymous>",
+        "process._tickCallback (internal/process/next_tick.js:188:7)"
+      ]
+    }
+  },
+  {
+    "ts": "2018-01-15T19:15:09.907Z",
+    "level": "warning",
+    "warning": "Connection error occurred. Waiting for 1986 ms before retrying..."
+  }
+]

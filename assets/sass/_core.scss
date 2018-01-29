@@ -1,0 +1,16 @@
+body, html {
+	height: 100%;
+	background-color: #eee;
+}
+
+.magic-wrapper {
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 25% 1fr;
+	grid-template-rows: 54px 1fr;
+}
+
+::selection {
+  color: #fff;
+  background: rgb(255, 136, 0);
+}

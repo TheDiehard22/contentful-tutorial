@@ -1,0 +1,12 @@
+.side-nav {
+	grid-column: 1 / 1;
+	grid-row: 2 / 2;
+	background-color: darken(#eee, 3);
+	padding: 20px;
+}
+
+.main {
+	grid-column: 2 / 2;
+	grid-row: 2/2;
+	// padding: 20px;
+}
